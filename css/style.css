@@ -1,0 +1,323 @@
+.myBg{
+    background-color: rgb(253, 255, 136);
+}
+#slideshowimg{
+    height:600px;
+    object-fit: cover;
+
+}
+.carousel-caption{
+    color: rgb(255, 255, 255);
+
+    top: 60%;
+
+}
+.mybanner{
+    background-color: rgb(192, 191, 189);
+    text-align:center;
+    padding-top:20px;
+    padding-bottom:20px;
+
+
+}
+.myiconsize{
+    font-size:40px;
+}
+.mybannerspace{
+    margin-bottom: 20px;
+}
+.myhr{
+    height:1px;
+    border-top:2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width:5%;
+    
+}
+.mytriotext{
+    text-align: justify;
+    margin:50px;
+    font-size: 20px;
+
+}
+.myquoteimg{
+    height:400px;
+    background-image: url("../Images/p5.jfif");
+    background-size:cover;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+
+    display:block;
+    color:rgb(255, 255, 255);
+    text-align: Center;
+}
+.nomargin{
+    margin:0% !important;
+    padding:0% !important;
+
+}
+
+.arrowdown{
+    margin-top:5%;
+
+    animation:bounce 3s infinite;
+}
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-30px);
+    }
+    
+    60%{
+        transform: translateY(-15px);
+    }
+}
+.myworkbg{
+    background-color: rgb(174, 174, 199);
+    height:300px;
+    text-align:center;
+    background-image:url(../Images/p8.jfif);
+    background-size:cover;
+}
+.myworkbg:before{
+    content:"";
+    display:block;
+    position:obsolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(180,180,180,0.5);
+}
+.myworkbg2{
+    background-color: rgb(174, 174, 199);
+    height:300px;
+    text-align:center;
+    background-image:url(../Images/p10.jfif);
+    background-size:cover;
+}
+.myworkbg:hover{
+    background:rgb(255, 165, 81);
+    
+}
+.myworkbg2:hover{
+    background:rgb(250, 70, 220);
+    
+}
+.myworkbg3{
+    background-color: rgb(174, 174, 199);
+    height:300px;
+    text-align:center;
+    background-image:url(../Images/p9.jfif);
+    background-size:cover;
+}
+.myworkbg3:hover{
+    background:rgb(82, 97, 235);
+}
+.myworkbg4{
+    background-color: rgb(174, 174, 199);
+    height:300px;
+    text-align:center;
+    background-image:url(../Images/p11.jfif);
+    background-size:cover;
+}
+.myworkbg4:hover{
+    background:rgb(223, 50, 50);
+}
+.myworkbg4:before{
+    content:"";
+    display:block;
+    position:obsolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.5);
+}
+    
+    
+.wrapper{
+    margin-top:50%;
+}
+.seefromanyplace{
+    z-index:100;
+    color:rgb(255, 255, 255);
+}
+.explore{
+    z-index:100;
+    color:rgb(255, 255, 255);
+}
+.seethis{
+    z-index:100;
+    color:white;
+}
+.seethisis{
+    z-index:100;
+    color:white;
+
+}
+.mytestimonials{
+    text-align: center;
+    
+}
+#footer{
+    background-color:rgb(180, 180, 180)
+}
+.nostyle{
+    list-style-type:none;
+}
+.mytriotext{
+    font-size: 18px;
+}
+#coffeeimg{
+    height:100%;
+    width:100%;
+}
+.aboutustext{
+    text-align:justify;
+    margin:2%;
+    
+}
+/*Overrideing an element defined by bootstrap*/
+a:hover{
+    color:rgb(248, 1, 1);
+}
+.centertxt{
+    text-align:center;
+}
+#web > div > p{
+    text-align:center;
+    font-size:15px;
+}
+.webone{
+    text-align: center;
+    background-image: url(../Images/p18.jfif);
+    background-size:cover;
+    border-radius:30px;
+    height:250px;
+    margin-right: 0px;
+
+    
+}
+.mywebrow > div > h4{
+    margin-top: 30%;
+    margin-bottom: 30%;
+    color: rgb(0, 0, 0);
+}
+.mywebrow > div > a > h4{
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.webthree{
+    text-align: center;
+    background-image: url(../Images/p19.jfif);
+    background-size:cover;
+    border-radius:30px;
+    height:250px;
+    margin-right: 0px;
+
+
+}
+.mywebrow > div > a:hover{
+    color:rgb(0, 0, 0);
+}
+.softtwo{
+    text-align: center;
+    background-image: url(../Images/p20.jfif);
+    background-size:cover;
+    border-radius:30px;
+    height:250px;
+    margin-right: 0px;
+
+
+}
+.digital{
+    text-align: center;
+    background-image: url(../Images/p21.jfif);
+    background-size:cover;
+    border-radius:30px;
+    height:250px;
+    margin-right: 0px;
+}
+.digital1{
+    text-align: center;
+    background-image: url(../Images/p22.jfif);
+    background-size:cover;
+    border-radius:30px;
+    height:250px;
+    margin-right: 0px;
+}
+.project{
+    height:250px;
+    background-color: rgb(128, 128, 128);
+    margin-bottom:20px;
+    border-radius: 5%;
+    
+}
+.borderstyle{
+    border-color: rgb(121, 171, 194);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding:10px;
+}
+.mapresponsive{
+    overflow:hidden;
+    position: relative;
+}
+.aligncenter{
+    align-items: center;
+}
+
+/*media Query*/
+/* Extra small devices with 600px or less*/
+@media only screen and (max-width:600px){
+    body{
+        background-color:rgb(227, 198, 255)
+    }
+    .aboutusmobile{
+        background-image:url("../Images/p17.jfif");
+        background-size:cover;
+        color: rgb(0, 0, 0);
+    }
+}
+
+/*media Query/
+/* Large devices like tablets and desktops*/
+@media only screen and (min-width:600px){
+    body{
+        background-color:rgb(121, 171, 194)
+    }
+}
+/* tablets in landscape mode*/
+@media only screen and (min-width:768px){
+    body{
+        background-color:rgb(185, 185, 115)
+    }
+}
+/* largers devices like mac book pro*/
+@media only screen and (min-width:992px){
+    body{
+        background-color:red
+    }
+
+}
+/* extra large devices with 1200px or more*/
+@media only screen and (min-width:1200px){
+    body{
+        background-color:rgb(255, 183, 207)
+    }
+}
+@media only screen and (min-width:600px){
+    .myp4pic{
+        height:200px;
+    }
+}
+@media only screen and (max-width:600px){
+    .myp4pic{
+        height:200px;
+    }
+}
+   
